@@ -22,6 +22,9 @@ io.on('connection', (client) => {
 
         client.broadcast.emit('enviarMensaje', data);
 
+
+
+
         // if (mensaje.usuario) {
         //     callback({
         //         respuesta: 'Todo bien'
